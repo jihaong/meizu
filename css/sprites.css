@@ -1,0 +1,306 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-M1_09 {
+  background-image: url(../images/dati.png);
+  background-position: -2007px -1440px;
+  width: 105px;
+  height: 112px;
+}
+.icon-M2_10 {
+  background-image: url(../images/dati.png);
+  background-position: -2217px -1327px;
+  width: 105px;
+  height: 112px;
+}
+.icon-M_05 {
+  background-image: url(../images/dati.png);
+  background-position: -2112px -1327px;
+  width: 105px;
+  height: 113px;
+}
+.icon-QQ截图20180226201343 {
+  background-image: url(../images/dati.png);
+  background-position: -1063px -1414px;
+  width: 727px;
+  height: 188px;
+}
+.icon-QQ截图20180227133505 {
+  background-image: url(../images/dati.png);
+  background-position: 0px -498px;
+  width: 1523px;
+  height: 248px;
+}
+.icon-QQ截图20180227151936 {
+  background-image: url(../images/dati.png);
+  background-position: -2007px -1014px;
+  width: 319px;
+  height: 95px;
+}
+.icon-QQ截图20180227155044 {
+  background-image: url(../images/dati.png);
+  background-position: -2167px -1195px;
+  width: 171px;
+  height: 108px;
+}
+.icon-QQ截图20180227155329 {
+  background-image: url(../images/dati.png);
+  background-position: -2007px -1195px;
+  width: 160px;
+  height: 132px;
+}
+.icon-QQ截图20180227161529 {
+  background-image: url(../images/dati.png);
+  background-position: 0px 0px;
+  width: 1607px;
+  height: 498px;
+}
+.icon-QQ截图20180227210247 {
+  background-image: url(../images/dati.png);
+  background-position: 0px -746px;
+  width: 1408px;
+  height: 227px;
+}
+.icon-QQ截图20180227220752 {
+  background-image: url(../images/dati.png);
+  background-position: -1225px -1834px;
+  width: 705px;
+  height: 129px;
+}
+.icon-QQ截图20180228093345 {
+  background-image: url(../images/dati.png);
+  background-position: -540px -1834px;
+  width: 685px;
+  height: 153px;
+}
+.icon-QQ截图20180228140806 {
+  background-image: url(../images/dati.png);
+  background-position: -2007px -1109px;
+  width: 349px;
+  height: 86px;
+}
+.icon-QQ截图20180301110201 {
+  background-image: url(../images/dati.png);
+  background-position: -2007px 0px;
+  width: 357px;
+  height: 414px;
+}
+.icon-VIP_03 {
+  background-image: url(../images/dati.png);
+  background-position: -2007px -1327px;
+  width: 105px;
+  height: 113px;
+}
+.icon-comment-logo {
+  background-image: url(../images/dati.png);
+  background-position: -2347px -430px;
+  width: 16px;
+  height: 16px;
+}
+.icon-connect1_03 {
+  background-image: url(../images/dati.png);
+  background-position: -2307px -414px;
+  width: 40px;
+  height: 42px;
+}
+.icon-connect2_06 {
+  background-image: url(../images/dati.png);
+  background-position: -2307px -492px;
+  width: 38px;
+  height: 38px;
+}
+.icon-connect3_09 {
+  background-image: url(../images/dati.png);
+  background-position: -2307px -456px;
+  width: 43px;
+  height: 36px;
+}
+.icon-connect4_12 {
+  background-image: url(../images/dati.png);
+  background-position: -2307px -530px;
+  width: 42px;
+  height: 32px;
+}
+.icon-discuss4 {
+  background-image: url(../images/dati.png);
+  background-position: -2135px -1552px;
+  width: 128px;
+  height: 63px;
+}
+.icon-discuss5 {
+  background-image: url(../images/dati.png);
+  background-position: -2007px -1552px;
+  width: 128px;
+  height: 63px;
+}
+.icon-discuss6 {
+  background-image: url(../images/dati.png);
+  background-position: 0px -1834px;
+  width: 540px;
+  height: 240px;
+}
+.icon-essay6 {
+  background-image: url(../images/dati.png);
+  background-position: -2007px -414px;
+  width: 300px;
+  height: 300px;
+}
+.icon-flyme5 {
+  background-image: url(../images/dati.png);
+  background-position: 0px -1414px;
+  width: 464px;
+  height: 420px;
+}
+.icon-footer {
+  background-image: url(../images/dati.png);
+  background-position: -2007px -1615px;
+  width: 128px;
+  height: 53px;
+}
+.icon-footer1 {
+  background-image: url(../images/dati.png);
+  background-position: -2345px -492px;
+  width: 19px;
+  height: 18px;
+}
+.icon-footer2 {
+  background-image: url(../images/dati.png);
+  background-position: -2007px -1668px;
+  width: 76px;
+  height: 76px;
+}
+.icon-footer3 {
+  background-image: url(../images/dati.png);
+  background-position: -2159px -1668px;
+  width: 76px;
+  height: 76px;
+}
+.icon-footer4 {
+  background-image: url(../images/dati.png);
+  background-position: -2083px -1668px;
+  width: 76px;
+  height: 76px;
+}
+.icon-ghs {
+  background-image: url(../images/dati.png);
+  background-position: -2329px -562px;
+  width: 20px;
+  height: 20px;
+}
+.icon-head20121226 {
+  background-image: url(../images/dati.png);
+  background-position: -464px -1414px;
+  width: 599px;
+  height: 300px;
+}
+.icon-login {
+  background-image: url(../images/dati.png);
+  background-position: -2307px -562px;
+  width: 22px;
+  height: 22px;
+}
+.icon-logo {
+  background-image: url(../images/dati.png);
+  background-position: -2112px -1480px;
+  width: 230px;
+  height: 40px;
+}
+.icon-logo2 {
+  background-image: url(../images/dati.png);
+  background-position: -2112px -1440px;
+  width: 230px;
+  height: 40px;
+}
+.icon-main_icon {
+  background-image: url(../images/dati.png);
+  background-position: -1607px -600px;
+  width: 220px;
+  height: 750px;
+}
+.icon-public {
+  background-image: url(../images/dati.png);
+  background-position: -1607px 0px;
+  width: 400px;
+  height: 600px;
+}
+.icon-service10 {
+  background-image: url(../images/dati.png);
+  background-position: -2079px -1744px;
+  width: 72px;
+  height: 72px;
+}
+.icon-service11 {
+  background-image: url(../images/dati.png);
+  background-position: -2235px -1668px;
+  width: 72px;
+  height: 72px;
+}
+.icon-service8 {
+  background-image: url(../images/dati.png);
+  background-position: -2151px -1744px;
+  width: 72px;
+  height: 72px;
+}
+.icon-service9 {
+  background-image: url(../images/dati.png);
+  background-position: -2007px -1744px;
+  width: 72px;
+  height: 72px;
+}
+.icon-stop2_03 {
+  background-image: url(../images/dati.png);
+  background-position: -2287px -1744px;
+  width: 64px;
+  height: 64px;
+}
+.icon-stop_03 {
+  background-image: url(../images/dati.png);
+  background-position: -2223px -1744px;
+  width: 64px;
+  height: 64px;
+}
+.icon-store1 {
+  background-image: url(../images/dati.png);
+  background-position: -1063px -1602px;
+  width: 469px;
+  height: 82px;
+}
+.icon-store2 {
+  background-image: url(../images/dati.png);
+  background-position: -719px -973px;
+  width: 720px;
+  height: 439px;
+}
+.icon-store3 {
+  background-image: url(../images/dati.png);
+  background-position: 0px -973px;
+  width: 719px;
+  height: 441px;
+}
+.icon-user {
+  background-image: url(../images/dati.png);
+  background-position: -2007px -714px;
+  width: 300px;
+  height: 300px;
+}
+.icon-view-logo {
+  background-image: url(../images/dati.png);
+  background-position: -2347px -414px;
+  width: 16px;
+  height: 16px;
+}
