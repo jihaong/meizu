@@ -1,0 +1,360 @@
+@charset "UTF-8";
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	a{
+		text-decoration: none;
+	}
+	body{
+		background: #f4f4f4;
+	}
+	.container{
+		width: 1519.2px;
+	}
+	.header{
+		width: 100%;
+		height: 81.8px;
+		background: #fff;
+	}
+	.topnav{
+		width: 1040px;
+		/* height: 81.8px; */
+		position: relative;
+		padding: 0 20px;
+		margin: 0 auto;
+	}
+	/* 针对logo */
+	.topnav>a{
+		display: inline-block;
+		float: left;
+		width: 115px;
+		height: 20px;
+		padding: 30px 0;
+	}
+	/* 针对导航栏 */
+	.topnav>ul{
+		list-style-type: none;	
+		float: right;
+		padding: 25px 0;
+		/* width: 700px; */
+		height: 30px;
+	}
+	.topnav>ul>li{
+		float: left;
+		width: 80px;
+		height: 30px;
+		line-height: 30px;
+		/* padding: 30px 0; */
+		text-align: center;
+		font-size: 14px;
+		color: #515151;
+	}
+	.list a{
+		color: #515151;
+	}
+	/* 中间大部队 */
+	.mid{
+		width: 100%;
+		height: 3100px;
+	}
+	.content{
+		width: 1040px;
+		padding: 0 20px;
+		margin: 0 auto;
+	}
+	.mid-nav{
+		width: 100%;
+		height: 70px;
+	}
+	.mid-nav ul{
+		list-style-type: none;
+		width: 531px;
+		height: 36px;
+		padding: 17px 0;
+		float: left;
+	}
+	.mid-nav li{
+		float: left;
+		padding-right: 25px;
+		font-size: 14px;
+		line-height: 36px;
+		color: #222222;
+	}
+	.mid-nav input{
+		float: right;
+		width: 200px;
+		height: 15px;
+		margin-top: 21px;
+		padding: 5px;
+	}
+
+	/* 内容部分 */
+	.mid-box{
+		width: 100%;
+	}
+	/* 左边 */
+	.mid-lf{
+		width: 716px;
+		height: 3000px;
+		float: left;
+	}
+	.adv{
+		width: 686px;
+		height: 288px;
+		padding: 15px;
+		background: #fff;
+		border: 1px solid #e6e6e6;
+	}
+	/* 热帖标题 */
+	.hot{
+		width: 684px;
+		height: 496px;
+		padding: 0 15px;
+		margin: 20px 0;
+		border: 1px solid #e6e6e6;
+		background: #fff;
+	}
+	.hot-nav{
+		width: 100%;
+		height: 61px;
+		border-bottom: 1px solid #eee;
+	}
+	.hot-nav h3{
+		float: left;
+		font-size: 18px;
+		font-weight: normal;
+		line-height: 61px;
+	}
+	.hot-nav>p{
+		width: 450px;
+		padding: 21px 0;
+		float: right;
+		font-size: 12px;
+		color: #666;
+		text-align: right;
+	}
+	.hot-nav span{
+		display: inline-block;
+		height: 10px;
+		border-left: 1px solid #eee;
+		margin: 0 20px;
+	}
+	/* 热点内容 */
+	.hot-talks{
+		width: 664px;
+		height: 410px;
+		padding: 25px 0 0 20px;
+	}
+	.hot-talks-box{
+		width: 330px;
+		height: 46px;
+		padding: 1px 1px 20px;
+		float: left;
+	}
+	.hot-talks-box img{
+		width: 34px;
+		height: 34px;
+		border-radius: 50%;
+		float: left;
+	}
+	/* 文字第一行 */
+	.hot-talks-box>a{
+		display: block;
+		width: 280px;
+		height: 100%;
+		float: left;
+		margin-left: 15px;
+	}
+	.hot-talks-box span{
+		display: block;
+		font-size: 14px;
+		line-height: 20px;
+		color: #333;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;
+	}
+	.hot-talks-box ul{
+		list-style-type: none;
+		margin-top: 5px;
+	}
+	.hot-talks-box li{
+		font-size: 12px;
+		color: #999;
+		padding-right: 20px;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		float: left;
+	}
+	/* 特殊的一个：用户名 */
+	.hot-talks-box #user{
+		width: 75px;
+		height: 16px;
+	}
+	.hot-talks-box li>img{
+		width: 16px;
+		height: 20px;
+	}
+	/* 综合评论 */
+	.comments{
+		width: 700px;
+		height: 213px;
+		padding: 14px 0 14px 14px;
+		margin-bottom: 20px;
+		background: #fff;
+	}
+	.comments>img{
+		float: left;
+	}
+	.comments>div{
+		width: 350px;
+		height: 213px;
+		padding: 0 19px;
+		float: left;
+	}
+	.comments-detail>h3{
+		width: 64px;
+		height: 34px;
+		line-height: 34px;
+		font-size: 16px;
+		font-weight: normal;
+		color:#fff;
+		background: #0daaea;
+		padding: 0 9px;
+		margin-bottom: 5px;
+		border-radius: 2px; 
+	}
+	.comments-detail ul{
+		list-style-type: none;
+		margin: 15px 0;
+		width: 100%;
+		height: 20px;
+	}
+	.comments-detail li{
+		float: left;
+		padding-right: 15px;
+		font-size: 12px;
+		color: #999;
+	}
+	.comments-detail a{
+		color: #32a5e7;
+	}
+	.comments-detail p{
+		font-size: 14px;
+		color: #515151;
+		margin-bottom: 15px;
+	}
+	/* 右边 */
+	.mid-rt{
+		width: 270px;
+		height: 620px;
+		padding: 16px;
+		margin-left: 20px;
+		float: left;
+		border: 1px solid #e6e6e6;
+		background: #fff;
+	}
+	/* 签到 */
+	.sign-in{
+		display: block;
+		width: 268px;
+		height: 62px;
+		line-height: 62px;
+		border: 1px solid #53D769;
+		background: #43b56b;
+
+	}
+	.days{
+		width: 100px;
+		text-align: center;
+		line-height: 50px;
+		height: 50px;
+		margin: 6px 25px;
+		color: #333;
+		font-size: 18px;
+		float: left;
+		background-image: url('../images/sign-in_03.gif');
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+	.sign-in span{
+		display: inline-block;
+		float: right;
+		font-size: 24px;
+		color: #ffffff;
+		margin-right: 40px;
+	}
+	/* 兑换抽奖 */
+	.shopping{
+		width: 100%;
+		height: 67px;
+		margin-top: 10px;
+	}
+	.shopping>a{
+		display: inline-block;
+		width: 128px;
+		height: 63px;
+		float: left;
+	}
+	.shopping .interval{
+		margin-right: 14px;
+	}
+	/* 社区APP */
+	.APP{
+		width: 270px;
+		height: 120px;
+		margin-top: 20px;
+	}
+	/* 热门板块 */
+	.hots{
+		width: 270px;
+		height: 312.8px;
+		margin-top: 20px;
+		border-top: 2px solid #12b1e5;
+	}
+	table{
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		font-size: 14px;
+		background: #fcfcfc;
+	}
+	table,td{
+		border: 1px solid #eee;
+		border-collapse: collapse;
+	}
+	/* 颜色调整 */
+	.color{
+		background: #f7f7f7;
+	}
+
+	/*脚部*/
+	.footer{
+		width: 1519.2px;
+		height: 150px;
+	}
+	.footer-box{
+		width: 1040px;
+		height: 100px;
+		text-align: center;
+		padding-top: 37px;
+		margin: 0 auto;
+		border-top: 1px solid #e6e6e6;
+	}
+	.footer-box span{
+		display: inline-block;
+		height: 10px;
+		border-left: 1px solid #515151;
+		margin: auto 10px;
+	}
+	.footer-box a{
+		font-size: 14px;
+		color: #515151;
+	}
+	.footer-box p{
+		font-size: 12px;
+		color: #515151;
+		line-height: 30px;
+	}

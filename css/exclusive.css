@@ -1,0 +1,277 @@
+@charset "UTF-8";
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	a{
+		text-decoration: none;
+	}
+	body{
+		background: #f4f4f4;
+	}
+	.container{
+		width: 1519.2px;
+	}
+	.header{
+		width: 100%;
+		height: 81.8px;
+		background: #fff;
+	}
+	.topnav{
+		width: 1240px;
+		/* height: 81.8px; */
+		position: relative;
+		padding: 0 20px;
+		margin: 0 auto;
+	}
+	/* 针对logo */
+	.topnav>a{
+		display: inline-block;
+		float: left;
+		width: 115px;
+		height: 20px;
+		padding: 30px 0;
+	}
+	/* 针对导航栏 */
+	.topnav>ul{
+		list-style-type: none;	
+		float: right;
+		padding: 25px 0;
+		/* width: 700px; */
+		height: 30px;
+	}
+	.topnav>ul>li{
+		float: left;
+		width: 100px;
+		height: 30px;
+		line-height: 30px;
+		/* padding: 30px 0; */
+		text-align: center;
+		font-size: 14px;
+		color: #515151;
+	}
+	.list a{
+		color: #515151;
+	}
+	/* 大图片部分 */
+	.store{
+		width: 100%;
+	}
+	.storePic{
+		width: 1240px;
+		padding: 0 20px;
+		margin: 0 auto;
+	}
+
+	/* 第三部分：地址 */
+	.address{
+		width: 1519.2px;
+		height: 785.8px;
+		background: #fff;
+		border-bottom: 1px solid #f1f1f1;
+	}
+	.address-box{
+		width: 1240px;
+		height: 785.8px;
+		padding: 0 20px;
+		margin: 0 auto;
+	}
+	/* 店名种类 */
+	.store-nav{
+		width: 100%;
+		height: 32.8px;
+		padding-top: 70px;
+		border-bottom: 2px solid #eee;
+	}
+	.store-nav>ul{
+		list-style-type: none;
+
+	}
+	.store-nav ul>li{
+		padding-right: 70px;
+		float: left;
+		font-size: 22px;
+		height: 32.8px;
+		line-height: 25px;
+		text-align: center;
+		border-bottom: 2px solid #00c3f5;
+	}
+	/* 城市选择 */
+	.city{
+		width: 100%;
+		height: 40px;
+		padding-top: 20px;
+		font-size: 16px;
+		line-height: 40px;
+	}
+	.city select{
+		width: 136px;
+		height: 38px;
+		padding: 0 20px 0 9px;
+		line-height: 40px;
+		font-size: 16px;
+	}
+
+	/* 详细地址 */
+	.detail{
+		width: 100%;
+		height: 376px;
+		font-size: 16px;
+		padding: 10px 0 69px 0;
+		border-bottom: 1px solid #e4e4e4;
+	}
+	.detail-address{
+		width: 350px;
+		height: 188px;
+		margin-right: 63px;
+		float: left;
+	}
+	/* 文字 */
+	.detail-address>a{
+		display: block;
+		width: 100%;
+		height: 30px;
+		line-height: 30px;
+		margin-top: 62px;
+		font-size: 20px;
+		color: #00c3f5;
+	}
+	.detail-address>p{
+		font-size: 16px;
+		color: #333;
+		line-height: 25px;
+	}
+
+	/* 加盟 */
+	.join-us{
+		width: 1240px;
+	}
+	.join-ways{
+		width: 100%;
+		padding: 22px 0 98px;
+		font-size: 18px;
+		text-align: right;
+	}
+	.join-ways>a{
+		display: inline-block;
+		padding: 7px 20px;
+		color: #00c3f5;
+		font-size: 16px;
+		border: 1px solid #00c3f5;
+		margin-left: 10px;
+	}
+
+	/* 底部 */
+	.footer{
+		width: 1519.2px;
+		height: 237.6px;
+		padding: 53px 0 20px 0;
+		/* margin-top: 60px; */
+		background: #fff;
+	}
+	/* 包装 */
+	.footer-wrap{
+		width: 1240px;
+		margin: 0 auto;
+	}
+	/* 咨询售后等 */
+	.consult{
+		width: 100%;
+		height: 114.8px;
+		font-size: 14px;
+	}
+	/* 四个小块 */
+	.consultList{
+		width: 25%;
+		height: 100%;
+		/* text-align: left; */
+		float: left;
+	}
+	/* 装文字的块 */
+	.consultList-box{
+		width: 160px;
+		height: 72.8px;
+		text-align: center;
+	}
+	.consultList-box>img{
+		width: 40px;
+		height: 40px;
+	}
+	/* 文字 */
+	.consultList-box>a{
+		display: block;
+		width: 100%;
+		height: 32.8px;
+		text-align: center;
+	}
+	.consultList-box p{
+		font-size: 16px;
+		font-weight: bold;
+		line-height: 30px;
+		color: #303235;
+	}
+	.consultList-box span{
+		font-size: 12px;
+		line-height: 22px;
+		color: #999;
+	}
+	/* 联系方式 */
+	.number{
+		text-align: right;
+		width: 100%;
+		height: 100%;
+	}
+	.number>h3{
+		font-size: 30px;
+		font-weight: normal;
+		color: #00c3f5;
+		line-height: 55px;
+		margin: 0;
+		padding: 0;
+		float: right;
+		width:100%;
+	}
+	.number>a{
+		color: #333;
+		float: right;
+		display: block;
+		text-align: right;
+	}
+	.number img{
+		vertical-align: top;
+	}
+	/* 水平线 */
+	/* hr{
+		margin: 40px auto;
+		color: #f1f1f1;
+	} */
+	/* 联系项目 */
+	.contactItem{
+		width: 100%;
+		text-align: left;
+		margin-top: 40px;
+		padding-top: 40px;
+		border-top: 1px solid #f1f1f1;
+	}
+	.contactItem>span{
+		display: inline-block;
+		padding: 0 15px;
+		border-left: 1px solid #eee;
+	}
+	.contactItem a{
+		font-size: 12px;
+		line-height: 22px;
+		color: #999;
+	}
+	#clear{
+		padding-left: 0;
+		border-left: 0;
+	}
+	/* 版权 */
+	.copyRight{
+		width: 100%;
+		font-size: 12px;
+		line-height: 22px;
+		color: #999;
+		margin-top: 10px;
+	}

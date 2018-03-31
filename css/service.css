@@ -1,0 +1,592 @@
+@charset "UTF-8";
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	a{
+		text-decoration: none;
+	}
+	body{
+		background: #f4f4f4;
+	}
+	.container{
+		width: 1519.2px;
+		height: 680px;
+		background-image: url('../images/service7.jpg');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 2519.2px 680px;
+		position: relative;
+	}
+	.header{
+		width: 100%;
+		/* height: 100px; */
+		position: absolute;
+		z-index: 1;
+	}
+	.topnav{
+		width: 1240px;
+		/* height: 81.8px; */
+		position: relative;
+		padding: 0 20px;
+		margin: 0 auto;
+	}
+	/* 针对logo */
+	.topnav>a{
+		display: inline-block;
+		float: left;
+		width: 115px;
+		height: 20px;
+		padding: 30px 0;
+	}
+	/* 针对导航栏 */
+	.topnav>ul{
+		list-style-type: none;	
+		float: right;
+		padding: 30px 0;
+		/* width: 700px; */
+		height: 30px;
+	}
+	.topnav>ul>li{
+		float: left;
+		width: 100px;
+		height: 30px;
+		line-height: 30px;
+		/* padding: 30px 0; */
+		text-align: center;
+		font-size: 14px;
+		color: #fff;
+	}
+	.list a{
+		color: #fff;
+	}
+
+	/* 底部的点 */
+	.scroll{
+		width: 500px;
+		height: 20px;
+		position: absolute;
+		bottom: 20px;
+		left: 700px;
+	}
+	.scroll>span{
+		display: inline-block;
+		width: 10px;
+		height: 10px;
+		border-radius: 50%;
+		margin: 10px;
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.index_container{
+		width: 1519.2px;
+	}
+
+	/* 第二部分 */
+	.service-section{
+		width: 1519.2px;
+		height: 382px;
+		padding-bottom: 70px;
+		background: #fff;
+	}
+	.serviceList{
+		width: 1240px;
+		height: 209px;
+		padding: 0 20px;
+		margin: 0 auto;
+	}
+	.serviceItem{
+		width: 20%;
+		height: 100%;
+		float: left;
+		text-align: center;
+	}
+	.serviceItem>img{
+		width: 42px;
+		height: 49px;
+		margin-top: 68px;
+		margin-bottom: 15px;
+	}
+	.serviceItem>span{
+		display: block;
+		font-size: 14px;	
+	}
+
+	.moreService{
+		width: 1240px;
+		height: 173px;
+		padding: 0 20px;
+		margin: 0 auto;
+	}
+	.moreService-item{
+		float: left;
+		margin-right: 10px;
+		width: 301px;
+		height: 100%;
+		text-align: center;
+	}
+	/* 加背景颜色 */
+	.item1{
+		background: #388ded;
+	}
+	.item2{
+		background: #48bf6c;
+	}
+	.item3{
+		background: #f6af2a;
+	}
+	.item4{
+		margin-right: 0;
+		background: #3ec0d1;
+	}
+	.moreService-item>a{
+		display: block;
+	}
+	.moreService-item img{
+		margin-top: 30px;
+	}
+	.moreService-item p{
+		font-size: 16px;
+		color: #fff;
+		line-height: 25px;
+	}
+	.moreService-item span{
+		color: #fff;
+		font-size: 14px;
+	}
+	/* 第三部分：卖手机 */
+	.products{
+		width: 1519.2px;
+		height: 630px;
+		padding-bottom: 74.6px;
+	}
+	.products-content{
+		width: 1240px;
+		height: 100%;
+		padding: 0 20px;
+		margin: 0 auto;
+	}
+	/* 标题：请选择产品 */
+	.products-content>p{
+		font-size: 20px;
+		padding: 68px 0;
+		width: 100%;
+		text-align: center;
+	}
+	/* 产品类型 */
+	.products-adv{
+		width: 100%;
+		height: 298px;
+		margin-bottom: 13px;
+	}
+	.products-adv>div{
+		width: 406px;
+		height: 100%;
+		float: left;
+		text-align: center;
+		background: #fff;
+	}
+	/* 中间的魅蓝块设置距离 */
+	#meilan{
+		margin: 0 10px;
+	}
+	/* 对其中的图片设置 */
+	.products-adv img{
+		margin-top: 45px;
+	}
+	.products-adv span{
+		display: block;
+		margin-top: 20px;
+	}
+
+	/* 视频两个 */
+	.products-MV{
+		width: 100%;
+	}
+	.products-MV>div{
+		width: 615px;
+		height: 158px;
+		float: left;
+		background: #fff;
+		position: relative;
+	}
+	#jiange{
+		margin-right: 10px;
+	}
+	.products-MV .stop{
+		position: absolute;
+		top: 50px;
+		left: 200px;
+	}
+	.products-MV .words{
+		position: absolute;
+		top: 60px;
+		left: 290px;
+	}
+	.words>p{
+		font-size: 16px;
+		color: #fff;
+		line-height: 25px;
+	}
+	.words>span{
+		font-size: 14px;
+		color: #fff;
+	}
+
+	/* 专属权益 */
+	.rights{
+		width: 1519.2px;
+		height: 695.6px;
+		background: #fff;
+	}
+	.rights-box{
+		width: 1240px;
+		padding: 0 20px;
+		margin: 0 auto;
+	}
+	.rights-box>p{
+		font-size: 20px;
+		padding: 68px 0;
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	.rights-box>div{
+		/* width: 620px; */
+		height: 245px;
+		/* float: left; */
+		position: relative;
+	}
+	.rights-box .lf{
+		float: left;
+		width: 56%
+	}
+	.rights-box .rt{
+		float: right;
+		margin-right: 25px;
+	}
+	/* 左边图片 */
+	.rights-box img{
+		float: left;
+		width: 84px;
+		height: 90px;
+		margin-top: 25px;
+	}
+	/* 右边文字 */
+	.rights-box .rightsItem{
+		float: left;
+		width: 387px;
+		margin-left: 40px;
+	}
+	.rightsItem>span{
+		display: block;
+		font-size: 16px;
+		line-height: 50px;
+	}
+	.rightsItem>p{
+		font-size: 14px;
+		line-height: 25px;
+	}
+	.rightsItem>a{
+		color: #00bbf2;
+		display: block;
+		margin-top: 20px;
+	}
+
+	/* 常见问题 */
+	.solve{
+		width: 1519.2px;
+		height: 397.6px;
+	}
+	.solve-box{
+		width: 1240px;
+		padding: 0 20px;
+		margin: 0 auto;
+	}
+	/* 标题 */
+	.solve-box>p{
+		width: 100%;
+		font-size: 20px;
+		padding: 68px 0;
+		text-align: center;
+	}
+	/* 问题种类 */
+	.solve-box>div{
+		width: 100%;
+		height: 238px;
+	}
+	.solveItem>div{
+		width: 248px;
+		height: 238px;
+		float: left;
+		text-align: center;
+	}
+	.solveItem-eg>a{
+		display: block;
+		width: 100%;
+		padding-bottom: 13px;
+		text-align: center; 
+		font-size: 14px;
+		color: #333;
+		line-height: 25px;
+	}
+	/* 列表样式的问题清单 */
+	.solveItem-eg>.outter{
+		list-style-type: none;
+		width: 100%;
+		margin-top: 15px;
+	}
+	.outter>li{
+		width: 100%;
+		line-height: 27px;
+		text-align: center;
+		font-size: 14px;
+	}
+
+	/* 联系方式 */
+	.connect{
+		width: 1519.2px;
+		height: 327.4px;
+		background: #fff;
+	}
+	.connectList{
+		width: 1240px;
+		padding: 0 20px;
+		margin: 0 auto;
+	}
+	/* 标题 */
+	.connectList>p{
+		width: 100%;
+		font-size: 20px;
+		padding: 68px 0;
+		text-align: center;
+	}
+	.connectItem{
+		width: 25%;
+		float: left;
+		padding: 26px 0;
+		text-align: center;
+	}
+	.connectItem>a{
+		display: block;
+		width: 100%;
+	}
+	.connectItem p{
+		width: 100%;
+		font-size: 16px;
+		color: #333;
+		text-align: center;
+		line-height: 30px;
+	}
+	.connectItem span{
+		display: block;
+		width: 100%;
+		font-size: 14px;
+		color: #999;
+		line-height: 20px;
+	}
+
+	/* 店铺名字 */
+	.store{
+		width: 1519.2px;
+		height: 842px;
+		background: #fff;
+		border-bottom: 1px solid #f1f1f1;
+	}
+	.storeList{
+		width: 1240px;
+		padding: 0 20px;
+		margin: 0 auto;
+	}
+	/* 分四块 */
+	.storeItems{
+		width: 50%;
+		height: 378px;
+		float: left;
+	}
+	/* 第一块 */
+	.exclusive{
+		background: #5a66aa;
+	}
+	.storeItems>h3{
+		font-weight: normal;
+		font-size: 24px;
+		color: #fff;
+		margin: 81px 60px 23px;
+	}
+	.storeItems>p{
+		margin-left: 60px;
+		line-height: 20px;
+		color: #fff;
+	}
+	.storeItems>a{
+		display: block;
+		color: #00bbf2;
+		margin-left: 60px;
+		margin-top: 20px;
+	}
+	.logo{
+		margin-left: 60px;
+		margin-top: 46px;
+	}
+	.logo>ul{
+		list-style-type: none;
+	}
+	.logo li{
+		float: left;
+		width: 48px;
+		margin-right: 40px;
+		text-align: center;
+	}
+	/* .logo img{
+		width: 20px;
+		height: 27px;
+	} */
+	.logo span{
+		display: block;
+		font-size: 12px;
+		color: #fff;
+		line-height: 27px;
+	}
+	/* 第二块 */
+	.exclusive-agency{
+		background-image: url('../images/store2.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 100%;
+	}
+	/* 第三块 */
+	.experience-center{
+		background-image: url('../images/store3.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 100%;
+	}
+	/* 第四块 */
+	.experience{
+		background: #f4f4f4;
+		color: #393939;
+	}
+	.experience>h3{
+		color: #393939;
+	}
+	.experience>p{
+		color: #393939;
+	}
+	.experience span{
+		color: #393939;
+	}
+
+	/* 底部 */
+	.footer{
+		width: 1519.2px;
+		height: 237.6px;
+		padding: 53px 0 20px 0;
+		/* margin-top: 60px; */
+		background: #fff;
+	}
+	/* 包装 */
+	.footer-wrap{
+		width: 1240px;
+		margin: 0 auto;
+	}
+	/* 咨询售后等 */
+	.consult{
+		width: 100%;
+		height: 114.8px;
+		font-size: 14px;
+	}
+	/* 四个小块 */
+	.consultList{
+		width: 25%;
+		height: 100%;
+		/* text-align: left; */
+		float: left;
+	}
+	/* 装文字的块 */
+	.consultList-box{
+		width: 160px;
+		height: 72.8px;
+		text-align: center;
+	}
+	.consultList-box>img{
+		width: 40px;
+		height: 40px;
+	}
+	/* 文字 */
+	.consultList-box>a{
+		display: block;
+		width: 100%;
+		height: 32.8px;
+		text-align: center;
+	}
+	.consultList-box p{
+		font-size: 16px;
+		font-weight: bold;
+		line-height: 30px;
+		color: #303235;
+	}
+	.consultList-box span{
+		font-size: 12px;
+		line-height: 22px;
+		color: #999;
+	}
+	/* 联系方式 */
+	.number{
+		text-align: right;
+		width: 100%;
+		height: 100%;
+	}
+	.number>h3{
+		font-size: 30px;
+		font-weight: normal;
+		color: #00c3f5;
+		line-height: 55px;
+		margin: 0;
+		padding: 0;
+		float: right;
+		width:100%;
+	}
+	.number>a{
+		color: #333;
+		float: right;
+		display: block;
+		text-align: right;
+	}
+	.number img{
+		vertical-align: top;
+	}
+	/* 水平线 */
+	/* hr{
+		margin: 40px auto;
+		color: #f1f1f1;
+	} */
+	/* 联系项目 */
+	.contactItem{
+		width: 100%;
+		text-align: left;
+		margin-top: 40px;
+		padding-top: 40px;
+		border-top: 1px solid #f1f1f1;
+	}
+	.contactItem>span{
+		display: inline-block;
+		padding: 0 15px;
+		border-left: 1px solid #eee;
+	}
+	.contactItem a{
+		font-size: 12px;
+		line-height: 22px;
+		color: #999;
+	}
+	#clear{
+		padding-left: 0;
+		border-left: 0;
+	}
+	/* 版权 */
+	.copyRight{
+		width: 100%;
+		font-size: 12px;
+		line-height: 22px;
+		color: #999;
+		margin-top: 10px;
+	}
+
